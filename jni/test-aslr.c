@@ -10,7 +10,7 @@ int main(){
    static int static_var;
    int *heap_var_ptr;
 
-   heap_var_ptr = (unsigned int *) malloc(4);
+   heap_var_ptr = (unsigned int *) malloc(8);
 
    //in the data segment
    printf("global_initialized_var addr: 0x%08x\n", (unsigned int)&global_initialized_var);
